@@ -1,0 +1,52 @@
+baseURL = "https://yourname.com/"
+languageCode = "en-us"
+title = "小段的博客"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+
+  [params.netlify]
+    enableIdentityWidget = true
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/yourusername"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/yourusername"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "项目"
+    url = "/projects/"
+    weight = 20
+  [[menu.main]]
+    identifier = "blog"
+    name = "博客"
+    url = "/posts/"
+    weight = 30
+  [[menu.main]]
+    identifier = "contact"
+    name = "联系我"
+    url = "/contact/"
+    weight = 40

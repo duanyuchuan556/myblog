@@ -1,0 +1,135 @@
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- 其他自定义 head 内容 -->
+<style>
+    :root {
+        --primary-color: #3498db;
+        --secondary-color: #2c3e50;
+        --background-color: #ecf0f1;
+        --text-color: #34495e;
+    }
+
+
+ /* 导航栏样式 */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+  }
+
+  .navbar-brand a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-menu li {
+    margin-left: 1rem;
+  }
+
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: var(--secondary-color);
+    }
+
+    .navbar-menu.active {
+      display: flex;
+    }
+
+    .navbar-menu li {
+      margin: 0;
+      text-align: center;
+    }
+
+    .navbar-menu a {
+      display: block;
+      padding: 0.5rem 1rem;
+    }
+
+    .navbar-toggle {
+      display: block;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .navbar-toggle span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px 0;
+    }
+  }
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    a {
+        color: var(--primary-color);
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+
+    .main {
+        padding: 2rem;
+    }
+
+    .post-content {
+        line-height: 1.6;
+    }
+
+
+  /* 博客文章列表样式 */
+  .post-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .post-list li {
+    margin-bottom: 1rem;
+  }
+
+  .post-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: 1rem;
+  }
+</style>
+
+{{ if .Site.Params.netlify.enableIdentityWidget }}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}

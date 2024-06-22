@@ -1,0 +1,17 @@
+<header>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </div>
+    <button class="navbar-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="navbar-menu">
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

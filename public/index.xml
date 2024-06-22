@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>小段的博客</title>
+    <link>http://localhost:47811/</link>
+    <description>Recent content on 小段的博客</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2024 03:45:47 +0800</lastBuildDate>
+    <atom:link href="http://localhost:47811/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project2</title>
+      <link>http://localhost:47811/projects/project2/</link>
+      <pubDate>Sun, 23 Jun 2024 03:45:47 +0800</pubDate>
+      <guid>http://localhost:47811/projects/project2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>关于我</title>
+      <link>http://localhost:47811/about/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:47811/about/</guid>
+      <description>你好，我是张三 我是一名热爱技术的全栈开发者，专注于web开发和人工智能应用。
+我的技能 前端开发：HTML, CSS, JavaScript, React 后端开发：Node.js, Python, Django 数据库：MySQL, MongoDB 人工智能：TensorFlow, PyTorch 我的经历 2018-2022：XYZ大学，计算机科学学士 2022-至今：ABC科技公司，高级开发工程师
+兴趣爱好 除了编程，我还喜欢：
+阅读科幻小说 弹吉他 徒步旅行 如果你对我的工作感兴趣，欢迎联系我！</description>
+    </item>
+    <item>
+      <title>智能家居控制系统</title>
+      <link>http://localhost:47811/projects/project1/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:47811/projects/project1/</guid>
+      <description>智能家居控制系统这是一个基于树莓派的智能家居控制系统。它可以通过手机App控制家中的灯光、温度和安防设备。 主要特点： - 远程控制 - 自动化场景设置 - 能耗监控 - 语音控制集成 查看项目项目背景 随着物联网技术的发展，智能家居变得越来越普及。但市面上的许多解决方案要么功能单一，要么价格昂贵。因此，我决定自己动手，开发一个功能全面yet便宜的系统。
+技术栈 硬件：树莓派 4B 后端：Python, Flask 前端：React Native 数据库：SQLite 通信协议：MQTT 开发过程 需求分析和系统设计（2周） 硬件选型和测试（1周） 后端API开发（3周） 移动应用开发（4周） 集成测试和优化（2周） 遇到的挑战 最大的挑战是确保系统的安全性。为此，我实施了以下措施：
+所有通信采用SSL加密 实现了双因素认证 定期自动更新固件 后续计划 集成更多类型的智能设备 开发AI助手，提供智能建议 实现设备间的场景联动 如果你对这个项目感兴趣，欢迎访问GitHub仓库，给个star支持一下！</description>
+    </item>
+    <item>
+      <title>欢迎来到我的博客</title>
+      <link>http://localhost:47811/posts/welcome-to-my-blog/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:47811/posts/welcome-to-my-blog/</guid>
+      <description>欢迎来到我的技术博客！ 大家好，我是张三，这是我的第一篇博客文章。在这个博客中，我将分享我在技术领域的学习心得、项目经验和行业见解。
+为什么要写博客？ 记录学习过程 分享技术见解 与其他开发者交流 你能在这里看到什么？ 编程技巧和最佳实践 新技术评测 项目开发日志 行业动态分析 我会每周更新一篇新文章，欢迎大家订阅我的RSS feed！期待与大家在评论区交流！</description>
+    </item>
+    <item>
+      <title>联系我</title>
+      <link>http://localhost:47811/contact/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:47811/contact/</guid>
+      <description>让我们保持联系 无论你是想讨论一个项目，寻求技术建议，还是只是想打个招呼，我都很乐意听到你的声音！
+联系方式 邮箱：zhangsan@example.com LinkedIn：张三的LinkedIn GitHub：@zhangsan 工作机会 我目前对以下领域的工作机会感兴趣：
+全栈开发 人工智能应用开发 技术写作 如果你有合适的机会，欢迎通过邮件联系我。
+留言板 你也可以在下面的评论区给我留言。我会尽快回复！
+请注意：这是一个公开的留言板。如果你想私下交流，请使用上面提供的联系方式。</description>
+    </item>
+  </channel>
+</rss>

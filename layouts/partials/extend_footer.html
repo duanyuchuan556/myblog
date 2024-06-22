@@ -1,0 +1,24 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggle = document.querySelector('.navbar-toggle');
+    const navbarMenu = document.querySelector('.navbar-menu');
+
+    navbarToggle.addEventListener('click', function() {
+      navbarMenu.classList.toggle('active');
+    });
+  });
+</script>
+
+{{ if .Site.Params.netlify.enableIdentityWidget }}
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+{{ end }}
